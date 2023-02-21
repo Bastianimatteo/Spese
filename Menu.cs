@@ -18,7 +18,7 @@ namespace Spese
         public frmMenu()
         {
             InitializeComponent();
-            conn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source= C:\Users\basti\OneDrive\Desktop\Progetti\Spese\Spese.accdb; Persist Security Info = False";
+            conn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source= /*path*/; Persist Security Info = False";
         }
 
         private void Menu_Load(object sender, EventArgs e)
